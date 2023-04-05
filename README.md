@@ -60,10 +60,6 @@
     <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="netlify" />&nbsp;&nbsp;
     <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white" alt="canva" />&nbsp;&nbsp;
   
-  
-  
-  
- 
   <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
 
 </p>
@@ -85,8 +81,9 @@
 </div>
  <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' /> 
  <h2> ✍️ Random Dev Quote </h2>
- <img src='http://3.bp.blogspot.com/-x0PVXLOZjhg/VN2siaC-0RI/AAAAAAAAD54/qzFRKBzVVpQ/s1600/Steve%2BJobs.jpg'/> 
+ <img height=200px src='http://3.bp.blogspot.com/-x0PVXLOZjhg/VN2siaC-0RI/AAAAAAAAD54/qzFRKBzVVpQ/s1600/Steve%2BJobs.jpg'/> 
 </div>
+<img  src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
 
 
 
