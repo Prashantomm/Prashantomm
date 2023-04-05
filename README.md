@@ -3,16 +3,25 @@
 
 ![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)
 <div>
-<h1 align="center">Hi 👋, I'm Prashant Upadhyay</h1>
-<div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant.;I+am+a+Full+Stack+Java+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!" alt="Typing SVG" /></a></div>
-<h3 align="center">A passionate Backend java developer from India</h3>
-<img align="right" alt="coding" width="400" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=prashantomm&label=Profile%20views&color=0e75b6&style=flat" alt="prashantomm" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=prashantomm" alt="prashantomm" /></a> </p>
-
-- 📫 How to reach me **prashantupadhyayjpl@gmail.com**
+<h2 align="center">Hi 👋, I am Prashant Upadhyay.</h2>
+  <div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant Upadhyay.;I+am+a+Full+Stack+Node+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!" alt="Typing SVG" /></a></div>
+<hr>
+  
+<div>
+<h2 align="center">💫  About Me </h2>
+  
+ 🔭 I’m currently working on Backend Projects</a>
+  <br><br>
+ 🌱 I’m currently learning **JAVA**.
+  <br><br>
+ 🤔 Check Out my <a href="https://drive.google.com/file/d/1HB4310dLtWAs9RfhsCkQGOnjkv0CRSpo/view?usp=share_link">Resume</a>
+  <br><br>
+ 👨‍💻  
+ 😄 All of my projects are available at <a href="https://github.com/Ayush-kr-shanu">My Github Repositories</a>
+  <br><br>
+ 💬 Ask me about **HTML, CSS, JavaScript,Java**
+  <br><br>
+ ⚡ How to reach me prashantupadhyayjpl@gmail.com
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -25,4 +34,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=prashantomm&show_icons=true&locale=en" alt="prashantomm" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prashantomm&" alt="prashantomm" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prashantomm&" alt="prashantomm" /></p>-streak-stats.herokuapp.com/?user=prashantomm&" alt="prashantomm" /></p>
