@@ -3,10 +3,13 @@
 <h2 align="center">Hi 👋, I am Prashant Upadhyay.</h2>
   <div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant Upadhyay.;I+am+a+Full+Stack+Java+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!" alt="Typing SVG" /></a></div>
 <hr>
+
+
   
 <div>
+
 <h2 align="center">💫  About Me </h2>
-  
+ <img align="right" alt="coding" width="500"  src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47hmyoxu0uv0985uqtkbgtqd3zcjzxw2hgvgmp35jb&rid=giphy.gif&ct=g"> 
  🔭 I’m currently working on Backend Projects</a>
   <br><br>
  🌱 I’m currently learning **JAVA**.
@@ -33,7 +36,7 @@
  <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
 <h2 align="center">🚀 Languages and Tools: </h2>
   <h4><img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;Tech Stack..</h4>
- <img align="right" alt="Coding" width="400" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif">
+ <img align="right" alt="Coding" width="500" margin-bottom="50px" src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif">
 <p>
  <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
  <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
