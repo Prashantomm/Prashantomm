@@ -1,7 +1,10 @@
 # Prashantomm
 
 
+![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)
+<div>
 <h1 align="center">Hi 👋, I'm Prashant Upadhyay</h1>
+<div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant.;I+am+a+Full+Stack+Java+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!" alt="Typing SVG" /></a></div>
 <h3 align="center">A passionate Backend java developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
