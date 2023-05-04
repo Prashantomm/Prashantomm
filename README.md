@@ -82,6 +82,11 @@
   <a href="https://1999azzar.github.io/1999AZZAR/">
   <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg" alt="snake" /></a>
 </div>
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=prashantomm&theme=monokai&no-frame=false&no-bg=true&margin-w=4)
+
+
  <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' /> 
  <h2> ✍️ Random Dev Quote </h2>
  <img height=200px src='http://3.bp.blogspot.com/-x0PVXLOZjhg/VN2siaC-0RI/AAAAAAAAD54/qzFRKBzVVpQ/s1600/Steve%2BJobs.jpg'/> 
