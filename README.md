@@ -14,7 +14,7 @@
   <br><br>
  🌱 I’m currently learning **JAVA**.
   <br><br>
- 🤔 Check Out my <a href="https://drive.google.com/file/d/1HB4310dLtWAs9RfhsCkQGOnjkv0CRSpo/view?usp=share_link">Resume</a>
+ 🤔 Check Out my <a href="[https://drive.google.com/file/d/1HB4310dLtWAs9RfhsCkQGOnjkv0CRSpo/view?usp=share_link](https://drive.google.com/file/d/1prBF2sMxWDbNGBryTjyAK8qu1D_9CvQL/view?usp=share_link)">Resume</a>
   <br><br>
  👨‍💻  
  😄 All of my projects are available at <a href="https://github.com/Prashantomm">My Github Repositories</a>
