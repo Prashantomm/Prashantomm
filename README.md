@@ -16,10 +16,9 @@
   <br><br>
  🤔 Check Out my <a href="https://drive.google.com/file/d/1prBF2sMxWDbNGBryTjyAK8qu1D_9CvQL/view?usp=share_link">Resume</a>
   <br><br>
- 👨‍💻  
- 😄 All of my projects are available at <a href="https://github.com/Prashantomm">My Github Repositories</a>
+ 👨‍💻 All of my projects are available at <a href="https://github.com/Prashantomm">My Github Repositories</a>
   <br><br>
- 💬 Ask me about **HTML, CSS, JavaScript,Java**
+ 💬 Ask me about **HTML | CSS | JavaScript | Java**
   <br><br>
  ⚡ How to reach me prashantupadhyayjpl@gmail.com
 
@@ -45,6 +44,7 @@
 <br/>
 <img src="https://img.shields.io/badge/javascript%20-%23F7DF1.svg?&style=for-the-badge&logo=javascript&logoColor=white" />&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/java%20-%23F7DF1.svg?&style=for-the-badge&logo=Java&logoColor=white" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/mysql%20-%23F7DF1.svg?&style=for-the-badge&logo=Java&logoColor=white" />&nbsp;&nbsp;
 
 <br/>
 </p>
@@ -77,21 +77,33 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=prashantomm&theme=dark" alt="prashantomm" /></p>
   </div>
 </div>
+ 
 <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' /> 
 <div align="center">
   <a href="https://1999azzar.github.io/1999AZZAR/">
   <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg" alt="snake" /></a>
 </div>
+   <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' /> 
+   
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=prashantomm&theme=monokai&no-frame=false&no-bg=true&margin-w=4)
+  <img  src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
+  
+  ### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=prashantomm&limit=5&theme=monokai&combine_all_yearly_contributions=true)
+  <img  src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
 
 
- <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' /> 
+
+ 
  <h2> ✍️ Random Dev Quote </h2>
- <img height=200px src='http://3.bp.blogspot.com/-x0PVXLOZjhg/VN2siaC-0RI/AAAAAAAAD54/qzFRKBzVVpQ/s1600/Steve%2BJobs.jpg'/> 
+   <img height=200px width=100% src='http://3.bp.blogspot.com/-x0PVXLOZjhg/VN2siaC-0RI/AAAAAAAAD54/qzFRKBzVVpQ/s1600/Steve%2BJobs.jpg'/> 
+
+ 
 </div>
 <img  src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
+
 
 
 
