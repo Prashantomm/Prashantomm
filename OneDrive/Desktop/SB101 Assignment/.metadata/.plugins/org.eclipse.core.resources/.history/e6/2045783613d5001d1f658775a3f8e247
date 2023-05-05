@@ -1,0 +1,19 @@
+package com.masaischoolproblem01;
+
+import java.util.Arrays;
+import java.util.List;
+
+public interface PrintList {
+	public static void main(String[] args) {
+	    List<String> cities = Arrays.asList("New York", "London", "Paris", "Tokyo", "Sydney");
+
+	    PrintList printList = (List<String> city) -> {
+	        for (String c : city) {
+	            System.out.println(c);
+	        }
+	    };
+
+	    printList.display(cities);
+	}
+	
+}

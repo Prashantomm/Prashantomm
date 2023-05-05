@@ -1,0 +1,26 @@
+package com.masaschoolProble01;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class MethodRefDemo {
+    public static void main(String[] args) {
+        CreateEmployeeObject createEmp = Employee::new;
+        Employee emp1 = createEmp.getObject(1, "John Doe", 5000.0);
+        ShowDetails showDetails = emp1::toString;
+//       System.out.println(showDetails.getEmployeeDetailsInString()); 
+        
+        Employee emp2 = createEmp.getObject(2, "Jane Smith", 7000.0);
+        Employee emp3 = createEmp.getObject(3, "Bob Johnson", 4000.0);
+        Employee emp4 = createEmp.getObject(4, "Alice Brown", 6000.0);
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList.add(emp1);
+        employeeList.add(emp2);
+        employeeList.add(emp3);
+        employeeList.add(emp4);
+        Collections.sort(employeeList);
+        FindMin findMin = EmployeeOperations::getEmployeeWithMinimumSalary;
+        System.out.println(findMin.getMinSalariedEmployee(employeeList));
+    }
+}

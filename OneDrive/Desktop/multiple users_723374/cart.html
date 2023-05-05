@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <style>
+      #container {
+        width: 90%;
+        margin: auto;
+      }
+      #banner {
+        display: flex;
+        justify-content: space-between;
+      }
+      #banner > div:nth-child(2) {
+        display: grid;
+        gap: 5px;
+        align-content: center;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+
+      #products > div {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 15px;
+        height: 300px;
+      }
+      #products img {
+        height: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="banner">
+        <div>
+          <h1>Cart</h1>
+          <h2>Total count: <span id="count">0</span></h2>
+          <h2>Total cost: <span id="cost">0</span></h2>
+        </div>
+        <div>
+          <button>Logout</button>
+        </div>
+      </div>
+      <div id="products"></div>
+    </div>
+  </body>
+</html>
+<script>
+  
+  let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+  cartItems.forEach(function (el,i) {
+    let parent = document.querySelector("#products");
+    let card = document.createElement("div");
+    let img = document.createElement("img");
+    img.setAttribute("src", el[0].img);
+    let name = document.createElement("p");
+    name.textContent = el[0].name;
+    let brand = document.createElement("p");
+    brand.textContent=el[0].brand;
+    let category = document.createElement("p");
+    category.textContent = el[0].category;
+    let price = document.createElement("p");
+    price.textContent = el[0].price;
+    let add = document.createElement('button');
+    add.textContent = "+";
+    add.addEventListener('click',function(){
+        // increment the qty (el[1])
+        el[1]++;
+        // we store the array again so that the data is present even after refreshing
+        // store new qty in local storage
+        localStorage.setItem('cartItems',JSON.stringify(cartItems));
+        // here we are refreshing the page just to update values. You can use any other method as well.
+        // window.location.reload();
+        // or we can simply increase the qyt.textContent
+        // here we are simply updating the DOM with new qty value.
+        qty.textContent++;
+    })
+    let qty = document.createElement('span');
+    qty.textContent = el[1];
+    let rem = document.createElement('button');
+    rem.textContent = '-';
+    rem.addEventListener('click',function(){
+       if(qty.textContent<=1){
+        // previously we wrote a delete function in student assignment
+        // in this asgn we are going to  use splice.
+        // splice needs two arguments index, count;
+        // index of the element and count of the total elements to be deleted.
+        cartItems.splice(i,1);
+        // update the new array in localstorage
+        localStorage.setItem('cartItems',JSON.stringify(cartItems));
+        // we need to update DOM for that we are refreshing the page
+        window.location.reload();
+       }
+       else{
+        el[1]--;
+        localStorage.setItem('cartItems',JSON.stringify(cartItems));
+        qty.textContent--;
+       }
+    })
+    card.append(img, name,brand,category, price,add,qty,rem);
+    parent.append(card);
+  });
+  let logout = document.querySelector("#banner>div:nth-child(2)>button:nth-child(1)");
+
+  logout.addEventListener('click',function(){
+    alert('logout successful!')
+    window.location.assign('./login.html')
+  })
+
+</script>

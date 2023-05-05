@@ -1,0 +1,5 @@
+package com.masaischoolproblem01;
+
+public interface PrintList {
+
+}

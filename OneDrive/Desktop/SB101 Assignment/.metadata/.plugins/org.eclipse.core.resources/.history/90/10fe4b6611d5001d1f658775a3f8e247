@@ -1,0 +1,33 @@
+package com.masaischool.problem2;
+
+public class SchoolStudent {
+	 private String boardName;
+
+	public SchoolStudent(String boardName) {
+		super();
+		this.boardName = boardName;
+	}
+
+	public SchoolStudent(int i, String string, String string2, String string3) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getBoardName() {
+		return boardName;
+	}
+
+	public void setBoardName(String boardName) {
+		this.boardName = boardName;
+	}
+
+	@Override
+	public String toString() {
+		return "SchoolStudent [boardName=" + boardName + "]";
+	}
+
+	public Object getState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

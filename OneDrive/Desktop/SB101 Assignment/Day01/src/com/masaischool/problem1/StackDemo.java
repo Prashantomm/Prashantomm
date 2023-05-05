@@ -1,0 +1,61 @@
+package com.masaischool.problem1;
+
+import java.util.Scanner;
+
+public class StackDemo {
+	public static void main(String[] args) {
+		  
+//		   stack.push(11);
+//        stack.push(21);
+//        stack.push(31);
+//        stack.push(41);
+//        stack.push(51);
+//        
+//        System.out.print(stack.pop()+" ");
+//        System.out.print(stack.peek()+" ");
+//        System.out.print(stack.isEmpty());
+		  
+			    Scanner sc = new Scanner(System.in);
+			    int choice = 0;
+			    Stacks<Integer> stack = new Stacks<Integer>(5);
+			    do{
+			      System.out.println("1. Push element to stack");
+			      System.out.println("2. pop element from stack");
+			      System.out.println("3. get top element of stack");
+			      System.out.println("4. display element of stack");
+			      System.out.println("5. Bye Exit");
+			      System.out.println("Enter selection : ");
+			      choice = sc.nextInt();
+			      int element = -1;
+			     
+			        switch(choice){
+			          case 1:
+			            System.out.print("Enter element ");
+			            element = sc.nextInt();
+			            stack.push(element);
+			            break;
+			          case 2:
+			            element = stack.pop();
+			            System.out.print("The popped element is " + element);
+			            break;
+			          case 3:
+			            element = stack.peek();
+			            System.out.print("The peek element is " + element);
+			            break;
+			          case 4:
+			            System.out.print(stack.toString());
+			            break;
+			          case 5:
+			            System.out.println("Bye bye");
+			            break;
+			          default:
+			            System.out.println("Invalid Selection! try again");
+			        }
+			      
+			    }while(choice != 5);
+			    sc.close();
+			  }
+		
+	}
+
+

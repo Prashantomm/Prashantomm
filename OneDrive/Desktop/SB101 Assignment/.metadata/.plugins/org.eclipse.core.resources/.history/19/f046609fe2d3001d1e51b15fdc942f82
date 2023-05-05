@@ -1,0 +1,24 @@
+package com.masaischool.problem2;
+
+public class SchoolStudent {
+	 private String boardName;
+
+	public SchoolStudent(String boardName) {
+		super();
+		this.boardName = boardName;
+	}
+
+	public String getBoardName() {
+		return boardName;
+	}
+
+	public void setBoardName(String boardName) {
+		this.boardName = boardName;
+	}
+
+	@Override
+	public String toString() {
+		return "SchoolStudent [boardName=" + boardName + "]";
+	}
+
+}

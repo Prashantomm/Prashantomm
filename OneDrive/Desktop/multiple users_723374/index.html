@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      #container {
+        width: 90%;
+        margin: auto;
+      }
+      #banner {
+        display: flex;
+        justify-content: space-between;
+      }
+      #banner > div:nth-child(2) {
+        display: grid;
+        gap: 5px;
+        align-content: center;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      #products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+
+      #products > div {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 15px;
+        height: 300px;
+      }
+      #products img {
+        height: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="banner">
+        <div>
+          <h1>Welcome <span></span></h1>
+        </div>
+        <div>
+          <button>Logout</button>
+          <button>Go to Cart</button>
+        </div>
+      </div>
+      <div id="products"></div>
+    </div>
+  </body>
+</html>
+<script>
+  // 1. catch the span
+  // 2. get username from local storage
+  // 3. change the textContent of span.
+  //   we created some array with dummy products.
+  //  we stored this array in our local storage.
+  // we deleted this array from the script file to make it look good.
+  // we tried to get the stored products data from local storage.
+  // we ran a forEach loop inside the data array and create cards and appended them to parent
+  let loggedUser = JSON.parse(localStorage.getItem('loggedUser'));
+  document.querySelector("div>h1>span").textContent =
+    loggedUser.name;
+  let storedProducts = JSON.parse(localStorage.getItem("products"));
+  storedProducts.forEach(function (el) {
+    let parent = document.querySelector("#products");
+    let card = document.createElement("div");
+    let img = document.createElement("img");
+    img.setAttribute("src", el.img);
+    let name = document.createElement("p");
+    name.textContent = el.name;
+    let brand = document.createElement("p");
+    brand.textContent=el.brand;
+    let category = document.createElement("p");
+    category.textContent = el.category;
+    let price = document.createElement("p");
+    price.textContent = el.price;
+    let cartBtn = document.createElement("button");
+    cartBtn.textContent = "Add to Cart";
+    cartBtn.addEventListener('click',function(){
+      // we get the old cart items from local storage
+      let cart = JSON.parse(localStorage.getItem('cartItems'))||[];
+      // we push the new item to cart array along with quatity
+      // we are creating a temp array and storing the product along with qty.
+      let temp = []
+      // el is product, 1 is qty
+      temp.push(el);
+      temp.push(1);
+      // we push the temp array into cart.
+      cart.push(temp);
+      // we store the new array in local storage.
+      localStorage.setItem('cartItems',JSON.stringify(cart));
+      alert('added to cart successfully!')
+    })
+    card.append(img, name,brand,category, price, cartBtn);
+    parent.append(card);
+  });
+  let logout = document.querySelector("#banner>div:nth-child(2)>button:nth-child(1)");
+  let goToCart = document.querySelector("#banner>div:nth-child(2)>button:nth-child(2)");
+
+  logout.addEventListener('click',function(){
+    alert('logout successful!')
+    window.location.assign('./login.html')
+  })
+
+  goToCart.addEventListener('click',function(){
+    window.location.assign('./cart.html')
+  })
+</script>

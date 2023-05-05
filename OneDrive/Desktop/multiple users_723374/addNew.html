@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Products</title>
+    <style>
+      #container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+      }
+      form {
+        width: 250px;
+        margin: auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        margin-top: 50px;
+      }
+      form * {
+        width: 100%;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Add New Products to Site</h1>
+      <form>
+        <input type="text" placeholder="Name of product" required id="name" />
+        <br />
+        <select name="Brand" id="brand">
+          <option value="all">All</option>
+          <option value="apple">Apple</option>
+          <option value="samsung">Samsung</option>
+          <option value="vivo">Vivo</option>
+          <option value="oneplus">One Plus</option>
+        </select>
+        <br />
+        <select name="category" id="Category">
+          <option value="all">All</option>
+          <option value="mobile">Mobile</option>
+          <option value="tv">TV</option>
+          <option value="electronics">Electronics</option>
+          <option value="shoes">Shoes</option>
+        </select>
+        <br />
+        <input type="number" placeholder="Price" required id="price" />
+        <br />
+        <input type="url" placeholder="image source" required id="img" />
+        <br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
+<script>
+  let productsArr = JSON.parse(localStorage.getItem("products")) || [];
+  let form = document.querySelector("form");
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    let product = {
+      name: form.name.value,
+      price: form.price.value,
+      brand: form.brand.value,
+      category: form.category.value,
+      img: form.img.value,
+    };
+    if (product.brand == "all" || product.category == "all") {
+      alert("please provide category & brand");
+    } else {
+      productsArr.push(product);
+      localStorage.setItem("products", JSON.stringify(productsArr));
+      alert('product added successfully')
+    }
+  });
+</script>

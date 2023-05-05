@@ -1,0 +1,36 @@
+package com.masaischoolProblem02;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Demo {
+    public static void main(String[] args) {
+        List<Student> studentList = new ArrayList<>();
+        studentList.add(new Student(1, "Prashant", 45));
+        studentList.add(new Student(2, "Subham", 75));
+        studentList.add(new Student(3, "Ram", 60));
+        studentList.add(new Student(4, "Shyam", 80));
+        studentList.add(new Student(5, "Alok", 90));
+
+        try {
+            int passedStudentCount = StudentOperation.getOutstandingStudentCount(studentList);
+            System.out.println("Number of passed students: " + passedStudentCount);
+        } catch (NoStudentPassedException e) {
+            System.out.println(e.getMessage());
+        }
+
+        List<Student> studentList2 = new ArrayList<>();
+        studentList2.add(new Student(1, "Prashant", 45));
+        studentList2.add(new Student(2, "Subham", 35));
+        studentList2.add(new Student(3, "Ram", 30));
+        studentList2.add(new Student(4, "Shyam", 40));
+        studentList2.add(new Student(5, "Alok", 20));
+
+        try {
+            int passedStudentCount = StudentOperation.getOutstandingStudentCount(studentList2);
+            System.out.println("Number of passed students: " + passedStudentCount);
+        } catch (NoStudentPassedException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+}
