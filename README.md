@@ -11,19 +11,19 @@
 <h2 align="center">💫  About Me </h2>
  <img align="right" alt="coding" width="300"  src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47hmyoxu0uv0985uqtkbgtqd3zcjzxw2hgvgmp35jb&rid=giphy.gif&ct=g"> 
  🔭 I’m currently working on Backend Projects</a>
-  <br><br>
+  <br>
  🌱 I’m currently learning JAVA.
-  <br><br>
+  <br>
  🤔 Check Out my <a href="https://drive.google.com/file/d/1prBF2sMxWDbNGBryTjyAK8qu1D_9CvQL/view?usp=share_link">Resume</a>
-  <br><br>
+  <br>
  👨‍💻 Know more about me <a href="https://prashantomm.github.io/">My Portfolio</a>
- <br><br> 
+ <br>
  👨‍💻 All of my projects are available at <a href="https://github.com/Prashantomm">My Github Repositories</a>
-  <br><br>
+  <br>
  💬 Ask me about **HTML | CSS | JavaScript | Java**
-  <br><br>
+  <br>
  ⚡ How to reach me <a href="prashantupadhyayjpl@gmail.com">Gmail</a>
-  <br><br>
+  <br>
  ⚡ How to reach me <a href="https://www.linkedin.com/in/prashant-upadhyay-77a18b237/">LinkedIn</a>
 
   
