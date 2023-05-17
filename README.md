@@ -24,7 +24,7 @@
   <br><br>
  ⚡ How to reach me <a href="prashantupadhyayjpl@gmail.com">Gmail</a>
   <br><br>
- ⚡ How to reach me <a href="prashantupadhyayjpl@gmail.com">Gmail</a>
+ ⚡ How to reach me <a href="https://www.linkedin.com/in/prashant-upadhyay-77a18b237/">LinkedIn</a>
 
   
 <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
