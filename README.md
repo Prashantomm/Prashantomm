@@ -22,7 +22,9 @@
   <br><br>
  💬 Ask me about **HTML | CSS | JavaScript | Java**
   <br><br>
- ⚡ How to reach me prashantupadhyayjpl@gmail.com
+ ⚡ How to reach me <a href="prashantupadhyayjpl@gmail.com">Gmail</a>
+  <br><br>
+ ⚡ How to reach me <a href="prashantupadhyayjpl@gmail.com">Gmail</a>
 
   
 <img src='https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png' />
