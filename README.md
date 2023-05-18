@@ -20,7 +20,7 @@
  <br>
  👨‍💻 All of my projects are available at <a href="https://github.com/Prashantomm">My Github Repositories</a>
   <br>
- 💬 Ask me about **HTML | CSS | JavaScript | Java**
+ 💬 Ask me about HTML | CSS | JavaScript | Java.
   <br>
  ⚡ How to reach me <a href="prashantupadhyayjpl@gmail.com">Gmail</a>
   <br>
