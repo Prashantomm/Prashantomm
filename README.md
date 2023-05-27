@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)..
+![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)...
 <div>
 <h2 align="center">Hi 👋, I am Prashant Upadhyay.</h2>
   <div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant Upadhyay.;I+am+a+Full+Stack+Java+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!..." alt="Typing SVG" /></a></div>
