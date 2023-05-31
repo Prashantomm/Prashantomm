@@ -12,7 +12,7 @@
  <img align="right" alt="coding" width="300"  src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47hmyoxu0uv0985uqtkbgtqd3zcjzxw2hgvgmp35jb&rid=giphy.gif&ct=g"> 
  🔭 I’m currently working on Backend Projects</a>
   <br>
-  <br>
+
  🌱 I’m currently learning JAVA.
   <br>
   <br>
