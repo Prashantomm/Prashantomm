@@ -19,7 +19,7 @@
  🤔 Check Out my <a href="https://drive.google.com/file/d/1prBF2sMxWDbNGBryTjyAK8qu1D_9CvQL/view?usp=share_link">Resume</a>
   <br><br>
  👨‍💻 Know more about me <a href="https://prashantomm.github.io/">My Portfolio</a>
- <br>
+ <br><br>
  👨‍💻 All of my projects are available at <a href="https://github.com/Prashantomm">My Github Repositories</a>
   <br>
  💬 Ask me about HTML | CSS | JavaScript | Java.
