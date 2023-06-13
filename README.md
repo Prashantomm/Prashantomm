@@ -1,5 +1,6 @@
 <!-- ![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png) -->
-![Uploading e36ec678-7984-4cdd-8e4c-a3932772ff8e.gif…]()
+![e36ec678-7984-4cdd-8e4c-a3932772ff8e](https://github.com/Prashantomm/Prashantomm/assets/112774297/4097cf52-6d4f-40bf-9e5c-f6165a7b9260)
+
 
 <div>
 <h2 align="center">Hi 👋, I am Prashant Upadhyay.</h2>
