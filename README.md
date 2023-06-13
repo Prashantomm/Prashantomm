@@ -1,4 +1,5 @@
-![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png)
+<!-- ![](https://raw.githubusercontent.com/halfrost/halfrost/master/icons/header_.png) -->
+<![download](https://github.com/Prashantomm/Prashantomm/assets/112774297/0aedfc09-7070-41d2-a265-e32b939250d2)
 <div>
 <h2 align="center">Hi 👋, I am Prashant Upadhyay.</h2>
   <div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant Upadhyay.;I+am+a+Full+Stack+Java+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!..." alt="Typing SVG" /></a></div>
@@ -6,7 +7,8 @@
 
 
   
-<div>
+
+div>
 
 <h2 align="center">💫  About Me </h2>
  <img align="right" alt="coding" width="300"  src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47hmyoxu0uv0985uqtkbgtqd3zcjzxw2hgvgmp35jb&rid=giphy.gif&ct=g"> 
