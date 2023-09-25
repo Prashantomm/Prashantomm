@@ -6,7 +6,7 @@
 
 <div>
 <h2 align="center">Hi 👋, I am Prashant Upadhyay.</h2>
-  <h2 align="center">GitHub is a versatile platform that serves as a central hub for code management, collaboration, and project coordination.</h2>
+  <h2 align="center">"Joining GitHub is like entering a limitless library of knowledge, where every commit is a new chapter in your learning journey.".</h2>
   <div align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi!+I+am+Prashant Upadhyay.;I+am+a+Full+Stack+Java+Developer.;Interested+in+working+with+Team.;Curious+to+learn+new+things+!..." alt="Typing SVG" /></a></div>
 <hr>
 
